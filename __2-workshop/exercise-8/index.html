@@ -1,1 +1,34 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <h1>Registration form</h1>
+    <form>
+        <section>
+            <label> Username</label> <input type="text" required />
+            <label>password</label> <input type="text" required />
+            <label>Email</label><input type="text" required />
+        </section>
+
+        <h2>Which taxi do you require?</h2>
+        <input type="radio" id="car" name="car-van-tuktuk" required /> <label for="car">Car</label>
+        <input type="radio" id="van" name="car-van-tuktuk" required /> <label for="van">Van</label>
+        <input type="radio" id="tuktuk" name="car-van-tuktuk" required /><label for="tuktuk">TukTuk</label>
+        </ul>
+        <h2>Choose your seats</h2>
+        <input type="checkbox" required /> <label>Baby seat</label>
+        <input type="checkbox" required /> <label>Wheelchair access</label>
+        <input type="checkbox" required /><label>Privacy windows</label>
+        <h2>Where would you like us to pick you up at?</h2>
+        <label>Pickup location:</label> <select id=location>
+            <option value="terminal1">Terminal 1</option>
+            <option value="terminal2">Terminal 2</option>
+            <option value="terminal3">Terminal 3</option>
+        </select>
+        <h2>Additional Instructions</h2>
+        <label>Special</label> <textarea style="height: 50px"
+            placeholder="provide special instructions here"></textarea><button type="submit">Submit</button>
+    </form>
+</body>
